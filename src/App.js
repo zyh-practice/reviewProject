@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Mycompents from './01.函数式组件/Mycompents';
+import Life from './生命周期';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <Mycompents />
+        <Life/>
       </header>
     </div>
   );
